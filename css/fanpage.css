@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Old+Standard+TT');
+
+body {
+	background-color: #F3EFE0;
+	font-family: 'Arvo', serif;
+}
+
+h1, h2 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 2.5rem;
+}
+
+.content {
+	padding: 5% 5%;
+}
+
+.header {
+	background: url('../images/flag.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+	padding: 5% 5%;
+	color: #F3EFE0;
+}
+
+.ronimage {
+	background-image: url('../images/ron.jpg');
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
+.ronimage:hover {
+	background-image: url('../images/duke.jpg');
+	width: 500px;
+	height: 500px;
+}
